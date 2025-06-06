@@ -1,0 +1,42 @@
+      PERIODIC XYZ
+    &END CELL
+    &COORD
+@include coord.xyz
+    &END COORD
+#   &VELOCITY #You can set initial atomic velocities in this section
+#   &END VELOCITY
+    &KIND Cl
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND   
+    &KIND Br
+      ELEMENT Br
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND
+    &KIND C 
+      ELEMENT C 
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND
+    &KIND H 
+      ELEMENT H 
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND
+    &KIND O 
+      ELEMENT O 
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND
+    &KIND N
+      ELEMENT N
+      BASIS_SET DZVP-MOLOPT-SR-GTH
+      POTENTIAL GTH-PBE
+    &END KIND
+  &END SUBSYS
+
+  &DFT
+    BASIS_SET_FILE_NAME  BASIS_MOLOPT
+    POTENTIAL_FILE_NAME  POTENTIAL
+#   WFN_RESTART_FILE_NAME to_be_specified

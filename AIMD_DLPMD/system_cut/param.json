@@ -1,0 +1,16 @@
+{
+     "break_bond": {"ALB": [["BR","C"]]
+	          
+     }, 
+     "sys_bond_top": ["./MOL_GMX.top"],
+     "break_atom": {"BR":-1
+	            },
+     "residue_charge": {
+	     "N_3": 0,
+	     "RBI": 0,
+	     "ALB": 0,
+	     "SBI": 0,
+	     "CCL": 0
+     },
+     "_comment": " that's all "     
+}

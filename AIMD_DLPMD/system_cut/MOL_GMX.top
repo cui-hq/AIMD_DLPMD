@@ -1,0 +1,23 @@
+; Include forcefield parameters
+#include "./amber99sb-ildn.ff/forcefield.itp"
+
+
+#include "./amber99sb-ildn.ff/R_BINOL.itp"
+
+#include "./amber99sb-ildn.ff/N_3.itp"
+
+#include "./amber99sb-ildn.ff/ALK_Br.itp"
+
+#include "./amber99sb-ildn.ff/CHCl3.itp"
+
+
+[ system ]
+; Name
+N_3_system
+
+[ molecules ]
+; Compound        #mols
+N_3                24
+RBI                24
+ALB                48
+CCL                367
